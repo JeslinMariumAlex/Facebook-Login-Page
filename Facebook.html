@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Sign Up</title>
+    <link rel="stylesheet" href="Facebook.css">
+    <script src="Facebook.js"></script>
+</head>
+
+<body>
+    <h1>Facebook</h1>
+    <div class="container">
+        <h2>Create a New Account</h2>
+        <form name="signupForm" class="form" onsubmit="submitForm()">
+            <input type="text" placeholder="First Name" name="firstName">
+            <input type="text" placeholder="Last Name" name="lastName">
+            <input type="email" placeholder="Email" name="email">
+            <input type="password" placeholder="Password" name="password">
+            <label>Date Of Birth :</label>
+            <input type="date" name="birthday">
+            <label>Gender :</label><br><br>
+            <label><input type="radio" name="gender" value="male">Male</label>
+            <label><input type="radio" name="gender" value="female">Female</label>
+            <label><input type="radio" name="gender" value="other">Other</label>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+
+</html>
